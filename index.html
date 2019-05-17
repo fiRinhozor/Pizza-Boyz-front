@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Boyz</title>
+    <link rel="icon" href="/img/favico.png">
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">Pizza Boyz</a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="index.html">Main</a></li>
+                <li><a href="#pizzas">Pizza</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="account.html">Create an Account</a></li>
+            </ul>
+
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="/cart.html"><i class="material-icons">shopping_cart</i></a></li>
+            </ul>
+
+
+        </div>
+    </nav>
+
+    <div class="carousel carousel-slider" data-indicators="true">
+
+
+        <a href="#one " class="carousel-item "><img src="/img/carousel-image1.jpg"></a>
+        <a href="#two " class="carousel-item "><img src="/img/carousel-image2.jpg"></a>
+        <a href="#three " class="carousel-item "><img src="/img/carousel-image3.jpg"></a>
+    </div>
+
+
+
+
+
+    <div class="container">
+
+        <div class="row category" id="pizzas">
+
+
+            <div class="col product xl3 ">
+
+
+                <div class="col product-image xl10 ">
+
+                    <img src="/img/pizza-pic.png">
+                </div>
+
+                <div class="col product-name xl10 ">
+                    <div class="header1 ">Alfredo Pizza</div>
+                </div>
+                <div class="col product-description xl10 ">Spinach Alfredo sauce, bacon, Canadian bacon, mushrooms, and cheese.</div>
+
+                <div class="col product-size xl12">
+                    <div class="col size s12">
+
+
+                        <label class="radio">
+                                    <input name="pizzasize" type="radio" value ="15$" checked/>
+                                    <span>Small</span>
+                                  </label>
+                    </div>
+                    <div class="col size s12">
+                        <label>
+                                    <input name="pizzasize" type="radio" value ="20$"/>
+                                    <span>Meduim</span>
+                                  </label>
+                    </div>
+                    <div class="col size s12">
+                        <label>
+                                    <input name="pizzasize" type="radio" value="25$"/>
+                                    <span>Large</span>
+                                  </label>
+                    </div>
+
+
+                </div>
+
+                <div class="col product-cart xl12 ">
+                    <div class="col s6"><span class="money" id="money">15$</span></div>
+                    <div class="col product-to-cart s6 ">
+                        <a href=""><i class="material-icons">add</i></a>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+            <div class="col product xl3 ">
+                <div class="col product-image xl10 ">
+
+                    <img src="/img/pizza-pic2.png">
+                </div>
+
+                <div class="col product-name xl10 ">
+                    <div class="header1 ">Cheese Pizza</div>
+                </div>
+                <div class="col product-description xl10 ">Real cheese made from mozzarella, pizza sauce and your choice of crust.</div>
+
+                <div class="col product-size xl12">
+                    <div class="col size s12">
+
+
+                        <label class="radio">
+                                        <input name="pizzasize2" type="radio" value ="15$" checked/>
+                                        <span>Small</span>
+                                      </label>
+                    </div>
+                    <div class="col size s12">
+                        <label>
+                                        <input name="pizzasize2" type="radio" value ="20$"/>
+                                        <span>Meduim</span>
+                                      </label>
+                    </div>
+                    <div class="col size s12">
+                        <label>
+                                        <input name="pizzasize2" type="radio" value="25$"/>
+                                        <span>Large</span>
+                                      </label>
+                    </div>
+
+
+                </div>
+
+                <div class="col product-cart xl12 ">
+                    <div class="col s6 "><span class="money" id="money2">15$</span></div>
+                    <div class="col product-to-cart s6 ">
+                        <a href=""><i class="material-icons">add</i></a>
+                    </div>
+
+
+                </div>
+
+
+
+
+
+            </div>
+            <div class="col product xl3 ">
+                <div class="col product-image xl10 ">
+
+                    <img src="/img/pizza-pic3.png">
+                </div>
+
+                <div class="col product-name xl10 ">
+                    <div class="header1 ">Hawaiian pizza</div>
+                </div>
+                <div class="col product-description xl10 ">Original crust, signature pizza sauce, pineapple, Canadian bacon.</div>
+
+                <div class="col product-size xl12">
+                    <div class="col size s12">
+
+
+                        <label class="radio">
+                                        <input name="pizzasize3" type="radio" value ="15$" checked/>
+                                        <span>Small</span>
+                                      </label>
+                    </div>
+                    <div class="col size s12">
+                        <label>
+                                        <input name="pizzasize3" type="radio" value ="20$"/>
+                                        <span>Meduim</span>
+                                      </label>
+                    </div>
+                    <div class="col size s12">
+                        <label>
+                                        <input name="pizzasize3" type="radio" value="25$"/>
+                                        <span>Large</span>
+                                      </label>
+                    </div>
+
+
+                </div>
+
+                <div class="col product-cart xl12 ">
+                    <div class="col s6 "><span class="money" id="money3">15$</span></div>
+                    <div class="col product-to-cart s6 ">
+                        <a href=""><i class="material-icons">add</i></a>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="col product xl3 ">
+                <div class="col product-image xl10 ">
+
+                    <img src="/img/pizza-pic4.png">
+                </div>
+
+                <div class="col product-name xl10 ">
+                    <div class="header1 ">Vegie Pizza</div>
+                </div>
+                <div class="col product-description xl10 ">Roma tomatoes, onions, mushrooms, ripe black olives and real cheese</div>
+
+                <div class="col product-size xl12">
+                    <div class="col size s12">
+
+
+                        <label class="radio">
+                                        <input name="pizzasize4" type="radio" value ="15$" checked/>
+                                        <span>Small</span>
+                                      </label>
+                    </div>
+                    <div class="col size s12">
+                        <label>
+                                        <input name="pizzasize4" type="radio" value ="20$"/>
+                                        <span>Meduim</span>
+                                      </label>
+                    </div>
+                    <div class="col size s12">
+                        <label>
+                                        <input name="pizzasize4" type="radio" value="25$"/>
+                                        <span>Large</span>
+                                      </label>
+                    </div>
+
+
+                </div>
+
+                <div class="col product-cart xl12 ">
+                    <div class="col s6 "><span class="money" id="money4">15$</span></div>
+                    <div class="col product-to-cart s6 ">
+                        <a href=""><i class="material-icons">add</i></a>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+    </div>
+
+
+    </div>
+
+
+
+
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js " integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin=" anonymous "></script>
+    <script type="text/javascript " src="js/materialize.min.js "></script>
+    <script src="/js/main.js" type="text/javascript "></script>
+    <script>
+        $(document).ready(function() {
+            $('.carousel').carousel({
+                indicators: true
+            });
+
+
+            // function for autoplay
+            setInterval(function() {
+                $('.carousel').carousel('next');
+            }, 3000);
+
+
+        });
+    </script>
+</body>
+
+</html>
